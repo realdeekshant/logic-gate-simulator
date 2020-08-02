@@ -1,0 +1,130 @@
+{
+    "id": 207229448,
+    "scene_width": 64000,
+    "scene_height": 64000,
+    "nodes": [
+        {
+            "id": 207296928,
+            "title": "Input",
+            "pos_x": -327.0,
+            "pos_y": -222.0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 207343568,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 1
+                }
+            ],
+            "content": {
+                "value": "0"
+            },
+            "op_code": 1
+        },
+        {
+            "id": 207356616,
+            "title": "Output",
+            "pos_x": 482.0,
+            "pos_y": -244.0,
+            "inputs": [
+                {
+                    "id": 207358704,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 2
+        },
+        {
+            "id": 207356640,
+            "title": "OR Gate",
+            "pos_x": -99.0,
+            "pos_y": -234.0,
+            "inputs": [
+                {
+                    "id": 207358800,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 2
+                },
+                {
+                    "id": 207358824,
+                    "index": 1,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 207358848,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 1
+                }
+            ],
+            "content": {},
+            "op_code": 3
+        },
+        {
+            "id": 207393744,
+            "title": "NOT Gate",
+            "pos_x": 210.0,
+            "pos_y": -222.0,
+            "inputs": [
+                {
+                    "id": 207393840,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 207393864,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 1
+                }
+            ],
+            "content": {},
+            "op_code": 7
+        }
+    ],
+    "edges": [
+        {
+            "id": 207358872,
+            "edge_type": 1,
+            "start": 207343568,
+            "end": 207358800
+        },
+        {
+            "id": 207393576,
+            "edge_type": 2,
+            "start": 207358824,
+            "end": 207343568
+        },
+        {
+            "id": 207393888,
+            "edge_type": 1,
+            "start": 207393840,
+            "end": 207358848
+        },
+        {
+            "id": 207393552,
+            "edge_type": 2,
+            "start": 207393864,
+            "end": 207358704
+        }
+    ]
+}
