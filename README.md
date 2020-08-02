@@ -2,7 +2,7 @@
 
 A node based logic gate simulator made with python.
 
-![Sample](/sample.png)
+![Sample](/example.png)
 
 - Requirement
   - Python 3
