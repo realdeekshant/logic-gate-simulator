@@ -5,13 +5,13 @@ A node based logic gate simulator made with python. With all common editor featu
 ![Sample](/sample.png)
 
 Nodes
-  *Input
-  *Output
-  *OR Gate
-  *AND Gate
-  *NOR Gate
-  *NAND Gate
-  *XOR Gate
-  *NXOR Gate
+*Input
+*Output
+*OR Gate
+*AND Gate
+*NOR Gate
+*NAND Gate
+*XOR Gate
+*NXOR Gate
   
   [about me](https://deekshantyadav.github.io/aboutme)
