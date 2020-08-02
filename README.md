@@ -1,8 +1,12 @@
 # Logic Gate Simulator
 
-A node based logic gate simulator made with python. With all common editor features.
+A node based logic gate simulator made with python.
 
 ![Sample](/sample.png)
+
+- Requirement
+  - Python 3
+  - PyQt 5
 
 - Nodes
   - Input
