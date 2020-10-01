@@ -113,9 +113,9 @@ class GateNode_Div(GateNode):
 @register_node(OP_NODE_NXOR)
 class GateNode_Div(GateNode):
     op_code = OP_NODE_NXOR
-    op_title = "NXOR Gate"
-    content_label = "NXOR"
-    content_label_objname = "node_nxor"
+    op_title = "XNOR Gate"
+    content_label = "XNOR"
+    content_label_objname = "node_xnor"
 
     def evalOperation(self, input1, input2):
         return not ((input1 and not input2) or (not input1 and input2))
