@@ -16,6 +16,6 @@ A node based logic gate simulator made with python.
   - NOR Gate
   - NAND Gate
   - XOR Gate
-  - NXOR Gate
+  - XNOR Gate
   
 [about me](https://deekshantyadav.github.io/aboutme)
