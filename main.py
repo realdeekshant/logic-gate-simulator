@@ -8,11 +8,7 @@ from window import SimulatorWindow
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-
-    # print(QStyleFactory.keys())
     app.setStyle('Fusion')
-
     wnd = SimulatorWindow()
     wnd.show()
-
     sys.exit(app.exec_())
